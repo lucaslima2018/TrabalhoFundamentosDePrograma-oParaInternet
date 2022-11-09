@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Usa o arquivo style.css separado ao inves de internal pois assim é só linkar com qualquer pagina que tu irá conseguir usá-lo sen tera de repetir o codigo em cada pagina para manter menu, cabeçalho entre outros -->
+
+<head>
+	<title></title>
+	<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Linkando com o arquivo style.css -->
+	<link href="Bootstrap/css/style.css" rel="stylesheet" media="screen">
+	<link href="Bootstrap/js/bootstrap.min.js" rel="stylesheet" media="screen">
+	<meta charset="utf-8">
+</head>
+<style>
+	body{
+		background-image: url(img/fundo1.jpg);
+		background-repeat: no-repeat;
+        background-position:  meddle;
+		background-size: 160%;
+	}
+</style>
+<body>
+
+	<!-- Div Geral que pega toda a página -->
+	<div class="container-fluid border">
+		<!-- Div do Cabeçalho -->
+		<div id="topo" class="col-md-12">
+			<!-- Div do Logo -->			
+			<div id="logo" class="col-md-6" style="color:blue"><img src="img/fs171.png"> Bem Vindo</div> 
+			
+			<!-- Div Menu Superior -->
+			<div id="sobrenos" class="col-md-6" align="right"><h1><a style="color:blue" href="sobre.html">Sobre Nós |</a> <a style="color:blue" href="contato.html">Contato</a></h1></div>
+		</div>
+		<br><br>
+		<!-- Div Imagem -->
+		<div id="image"><img src="img/fs17.png"></div>
+		<div id="dataehora" class="col-md-12">
+		<b><font color="red" size="5px">
+
+		<p align="center">
+
+		<script language='javascript' src="js/clock.js"></script>
+
+					<span id='clock_tm' >Hora Atual</span><br></font> <font color="red" size="5px"> <span id='clock_dt' >Data Atual</span>
+				
+		<script language='javascript'>
+		StartClock('d/m/Y','H:i:s');
+		</script>
+
+		</font></b>
+		</div>
+		<!-- Div do Segundo Esquerda -->
+		<div id="menu-top" class="col-md-12" align="right">
+			<h1><a style="color:blue" href="index.html">Página Inicial |</a> <a style="color:blue" href="produtos.html">Produtos |</a> <a style="color:blue" href="servicos.html">Serviços |</a> <a style="color:blue" href="clientes.html"> Clientes |</a> <a style="color:blue" href="novidadeseeventos.html">Novidades & Eventos</a></h1>
+		</div>
+
+		<!-- Div do Corpo da Página -->
+		<div class="col-md-12">
+			<!-- Div do Menu -->
+			<div id="menu-left" class="col-md-3" >
+				<h1 style="color: blue">
+					
+					<div id="sub-menu"><a style="color:blue" href="mods.html">Mods</a></div>
+					<div id="sub-menu"><a style="color:blue" href="versoes.html">Versões</a></div>
+					<div id="sub-menu"><a style="color:blue" href="tutoriais.html">Tutoriais</a></div>
+					<div id="sub-menu"><a style="color:blue" href="galeria.html">Galeria</a></div>
+					<div id="sub-menu"><a style="color:blue" href="https://foguinhogames.com.br/farming-simulator-2019/" target="_blank">FS 2019</a></div>
+				</h1>
+			</div>
+		
+			<!-- Div do Corpo (Conteúdo) -->
+			<div id="corpo" class="col-md-9" style="color: blue">
+				<h1 style="color: blue">
+					SERVIÇOS
+					<br><br>
+					<div>Os nossos serviços tem por objetivo oferecer os melhores recursos para a versão de simulador de fazenda Farming Simulator 2017.</div>
+					<br>
+					<div>Buscamos nada menos do que a satisfação dos nossos clientes.</div>
+					<br>
+					<div>Faça um ótimo proveito!</div>
+					<br><br><br>
+					<div align="center"><a href="index.html"><img src="img/VOLTAR.png"/></a></div>
+				</h1>
+			</div>
+		</div>
+
+		<!-- Div do Rodapé -->
+		<div id="footer" class="col-md-12" style="color: blue">
+			<h1>
+				<div class="col-md-6">Footer</div>
+				<div class="col-md-6" align="right">Copyright&#169 por Lucas Lima</div>
+			</h1>
+		</div>
+	</div>
+</body>
+</html>
